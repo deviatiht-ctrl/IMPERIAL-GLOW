@@ -537,7 +537,7 @@ async function sendStatusUpdateEmail(reservation, newStatus) {
       'COMPLETED': { icon:'★', title:'Merci pour votre visite!', color:'#2196F3', bgColor:'#e3f2fd', message:'Nous espérons que vous avez apprécié votre expérience chez DALIGHT Head Spa.' },
     };
     const config = statusConfig[newStatus] || statusConfig['CONFIRMED'];
-    const logoUrl = 'https://rbwoiejztrkghfkpxquo.supabase.co/storage/v1/object/public/assets/images/logodaligth.png';
+    const logoUrl = 'https://rbwoiejztrkghfkpxquo.supabase.co/storage/v1/object/public/assets/images/logo.png';
     subject = statusSubjects[newStatus] || 'Mise à jour de votre réservation - DALIGHT Head Spa';
     html = buildStatusUpdateEmailHTML(reservation, config, logoUrl, newStatus);
   }
@@ -586,7 +586,7 @@ async function sendOrderEmail(order, isAdmin = false) {
     html = dbResult.html;
   } else {
     subject = isAdmin ? '🔔 Nouvelle Commande Reçue' : '✓ Confirmation de Commande - DALIGHT Head Spa';
-    const logoUrl = 'https://rbwoiejztrkghfkpxquo.supabase.co/storage/v1/object/public/assets/images/logodaligth.png';
+    const logoUrl = 'https://rbwoiejztrkghfkpxquo.supabase.co/storage/v1/object/public/assets/images/logo.png';
     html = isAdmin ? buildAdminOrderEmailHTML(order, logoUrl) : buildClientOrderEmailHTML(order, logoUrl);
   }
 
@@ -805,8 +805,8 @@ function showBrowserNotification(title, body, onClick) {
   try {
     const n = new Notification(title, {
       body,
-      icon: '../assets/images/logodaligth.png',
-      badge: '../assets/images/logodaligth.png',
+      icon: '../assets/images/logo.png',
+      badge: '../assets/images/logo.png',
       tag: 'dalight-admin-' + Date.now(),
       vibrate: [200, 100, 200, 100, 200],
       requireInteraction: false,

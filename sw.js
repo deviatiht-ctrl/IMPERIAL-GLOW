@@ -11,7 +11,7 @@ const urlsToCache = [
   '/js/orders.js',
   '/js/follow.js',
   '/js/admin.js',
-  '/assets/images/logodaligth.png',
+  '/assets/images/logo.png',
   '/manifest.json'
 ];
 
