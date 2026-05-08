@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT HEAD SPA - CONFIGURATION STORAGE
+-- IMPERIAL GLOW HEAD SPA - CONFIGURATION STORAGE
 -- Exécuter après schema.sql
 -- ============================================
 

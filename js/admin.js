@@ -16,7 +16,7 @@ const videoPreviewEl = document.getElementById('video-preview');
 const VIDEO_BUCKET = 'videos';
 const VIDEO_FOLDER = 'spotlight';
 const LOCATION_FILTERS = {
-  Spa: ['Spa', 'DALIGHT — Delmas 65', 'Delmas 65'],
+  Spa: ['Spa', 'IMPERIAL GLOW — Pétion-Ville', 'Pétion-Ville'],
 };
 const STATUS_TEMPLATES = {
   CONFIRMED: {

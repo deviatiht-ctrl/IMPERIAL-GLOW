@@ -195,7 +195,7 @@
               <!-- Row 4 -->
               <div class="form-group">
                 <label class="form-label">Background du header (CSS gradient)</label>
-                <input class="form-input" id="tpl-header-bg" placeholder="linear-gradient(135deg, #4A3728, #6B4F3B)">
+                <input class="form-input" id="tpl-header-bg" placeholder="linear-gradient(135deg, #700100, #D4AF37)">
               </div>
 
               <!-- Greeting -->
@@ -422,7 +422,7 @@
       const iframe = document.getElementById('preview-iframe');
 
       const logoUrl = document.getElementById('tpl-logo-url').value || '';
-      const headerBg = document.getElementById('tpl-header-bg').value || 'linear-gradient(135deg, #4A3728, #6B4F3B)';
+      const headerBg = document.getElementById('tpl-header-bg').value || 'linear-gradient(135deg, #700100, #D4AF37)';
       const accentColor = document.getElementById('tpl-accent-color').value || '#D4AF37';
       const headerTitle = document.getElementById('tpl-header-title').value || 'DALIGHT Head Spa';
       const headerSubtitle = document.getElementById('tpl-header-subtitle').value || '';
@@ -442,7 +442,7 @@
         .replace(/\{\{service\}\}/g, 'Head Spa Signature')
         .replace(/\{\{date\}\}/g, 'samedi 19 avril 2025')
         .replace(/\{\{time\}\}/g, '14:00')
-        .replace(/\{\{location\}\}/g, 'DALIGHT — Delmas 65')
+        .replace(/\{\{location\}\}/g, 'IMPERIAL GLOW — Pétion-Ville')
         .replace(/\{\{notes\}\}/g, 'Cheveux secs, besoin hydratation')
         .replace(/\{\{order_number\}\}/g, 'ORD-20250419-001')
         .replace(/\{\{year\}\}/g, new Date().getFullYear().toString())
@@ -460,23 +460,23 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;col
 .header h1{margin:10px 0 5px 0;font-size:28px;font-weight:600}
 .header p{margin:0;font-size:16px;opacity:.9}
 .content{background:#fff;padding:40px 30px}
-.greeting{font-size:18px;color:#4A3728;margin-bottom:20px;font-weight:500}
+.greeting{font-size:18px;color:#700100;margin-bottom:20px;font-weight:500}
 .message{color:#666;margin-bottom:25px;line-height:1.8}
 .detail-box{background:#f9f7f5;border-left:4px solid ${accentColor};padding:20px;margin:25px 0;border-radius:8px}
 .detail-row{margin:12px 0;display:flex;align-items:flex-start}
-.label{font-weight:600;color:#4A3728;min-width:120px}
+.label{font-weight:600;color:#700100;min-width:120px}
 .value{color:#555;flex:1}
 .info-box{background:#fff3cd;border-left:4px solid ${accentColor};padding:20px;margin:25px 0;border-radius:8px}
 .alert-box{background:#fff3cd;border-left:4px solid ${accentColor};padding:20px;margin:0 0 25px 0;border-radius:8px}
-.alert-box strong{color:#4A3728;font-size:16px}
-.section-title{color:#4A3728;font-size:18px;font-weight:600;margin:25px 0 15px 0;border-bottom:2px solid ${accentColor};padding-bottom:8px}
+.alert-box strong{color:#700100;font-size:16px}
+.section-title{color:#700100;font-size:18px;font-weight:600;margin:25px 0 15px 0;border-bottom:2px solid ${accentColor};padding-bottom:8px}
 .action-box{background:#e8f5e9;border-left:4px solid #4CAF50;padding:20px;margin:25px 0;border-radius:8px}
 .action-box strong{color:#2e7d32}
 .order-number{background:#f9f7f5;padding:15px;margin:20px 0;border-radius:8px;text-align:center;border-left:4px solid ${accentColor}}
-.order-number strong{color:#4A3728;font-size:20px}
+.order-number strong{color:#700100;font-size:20px}
 .contact-box{background:#f9f7f5;padding:25px;margin:25px 0;border-radius:8px;text-align:center}
 .contact-item{margin:10px 0;color:#666}
-.footer{background:#4A3728;color:white;text-align:center;padding:25px;font-size:14px}
+.footer{background:#700100;color:white;text-align:center;padding:25px;font-size:14px}
 .footer a{color:${accentColor};text-decoration:none}
 .divider{height:1px;background:#e0e0e0;margin:25px 0}
 </style></head><body>
@@ -492,7 +492,7 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;col
   <div class="divider"></div>
   <div class="contact-box">
     <div class="contact-item">📞 <strong>+509 48 48 12 25</strong></div>
-    <div class="contact-item">📍 <strong>Delmas 65, Faustin Premier Durandise #10</strong></div>
+    <div class="contact-item">📍 <strong>Pétion-Ville, RUE Clerveaux, en face Belvédère</strong></div>
     <div class="contact-item">📧 <strong>laurorejeanclarens0@gmail.com</strong></div>
   </div>
 </div>

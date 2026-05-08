@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT SPA - RESERVATION TABLE V2.0
+-- IMPERIAL GLOW SPA - RESERVATION TABLE V2.0
 -- Complete recreation with all columns
 -- ============================================
 

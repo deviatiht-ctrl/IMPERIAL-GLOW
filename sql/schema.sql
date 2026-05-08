@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT HEAD SPA - SCHÉMA DE BASE DE DONNÉES
+-- IMPERIAL GLOW HEAD SPA - SCHÉMA DE BASE DE DONNÉES
 -- Exécuter après admin.sql
 -- ============================================
 
@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS reservations (
     user_name TEXT,
     service TEXT NOT NULL,
     service_id UUID REFERENCES services(id) ON DELETE SET NULL,
-    location TEXT NOT NULL CHECK (location IN ('Spa', 'Home', 'DALIGHT — Delmas 65')),
+    location TEXT NOT NULL CHECK (location IN ('Spa', 'Home', 'IMPERIAL GLOW — Delmas 65')),
     date DATE NOT NULL,
     time TIME NOT NULL,
     id_type TEXT,

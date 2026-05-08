@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT - PRODUCT IMAGES STORAGE SETUP
+-- IMPERIAL GLOW - PRODUCT IMAGES STORAGE SETUP
 -- Run this in Supabase SQL Editor
 -- ============================================
 

@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT RESERVATION REPAIR SCRIPT
+-- IMPERIAL GLOW RESERVATION REPAIR SCRIPT
 -- Fix tables + business hours 8AM-4PM
 -- ============================================
 

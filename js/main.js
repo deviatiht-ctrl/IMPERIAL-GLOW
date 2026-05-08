@@ -4,7 +4,7 @@ const DEFAULT_CONFIG = {
   stripePublicKey: 'pk_test_yourPublishableKey',
   stripeCheckoutUrl: '/api/create-checkout-session',
   smtpSecureToken: '',
-  notificationFrom: 'concierge@dalight.com',
+  notificationFrom: 'concierge@imperialglow.com',
   notificationBcc: '',
   publicBaseUrl: window.location.origin,
   resendApiKey: 're_WNFsawq8_NbVdiFmSj1gSLuzhJ5qr4knr',
@@ -63,25 +63,73 @@ const servicesCatalog = [
     priceId: 'price_rituel_renaissance_4',
   },
   {
-    id: 'love-zen-package',
-    name: 'Love & Zen Package',
-    price: 100,
-    priceHtg: 12000,
-    duration: '90 min',
-    priceId: 'price_love_zen',
+    id: 'manicure-classique',
+    name: 'Manicure Classique',
+    price: 25,
+    priceHtg: 3000,
+    duration: '45 min',
+    priceId: 'price_manicure_classique',
   },
   {
-    id: 'cure-vitalite-6',
-    name: 'Cure Vitalité Intense (6)',
-    price: 420,
-    priceHtg: 50000,
-    duration: '6 rituels',
-    priceId: 'price_cure_vitalite_6',
+    id: 'manicure-spa',
+    name: 'Manicure Spa',
+    price: 40,
+    priceHtg: 5000,
+    duration: '60 min',
+    priceId: 'price_manicure_spa',
+  },
+  {
+    id: 'pedicure-relax',
+    name: 'Pédicure Relax',
+    price: 35,
+    priceHtg: 4000,
+    duration: '50 min',
+    priceId: 'price_pedicure_relax',
+  },
+  {
+    id: 'manicure-pedicure-duo',
+    name: 'Manicure & Pédicure Duo',
+    price: 60,
+    priceHtg: 7500,
+    duration: '90 min',
+    priceId: 'price_manicure_pedicure_duo',
+  },
+  {
+    id: 'coupe-coiffage',
+    name: 'Coupe & Coiffage Homme',
+    price: 30,
+    priceHtg: 3500,
+    duration: '45 min',
+    priceId: 'price_coupe_coiffage',
+  },
+  {
+    id: 'coupe-barbe',
+    name: 'Coupe & Barbe',
+    price: 45,
+    priceHtg: 5500,
+    duration: '60 min',
+    priceId: 'price_coupe_barbe',
+  },
+  {
+    id: 'shaving-royal',
+    name: 'Shaving Royal',
+    price: 35,
+    priceHtg: 4000,
+    duration: '40 min',
+    priceId: 'price_shaving_royal',
+  },
+  {
+    id: 'barbershop-complet',
+    name: 'Barbershop Complet',
+    price: 70,
+    priceHtg: 8500,
+    duration: '90 min',
+    priceId: 'price_barbershop_complet',
   },
 ];
 
 const STORAGE_KEYS = {
-  service: 'dalight:selectedRitual',
+  service: 'imperialglow:selectedRitual',
 };
 
 const pageId = document.body?.dataset?.page ?? '';
@@ -236,7 +284,7 @@ async function initSupabase() {
 }
 
 async function init() {
-  console.log('🚀 Initializing DALIGHT app...');
+  console.log('🚀 Initializing IMPERIAL GLOW app...');
   
   // Setup UI first (don't wait for Supabase)
   document.body.classList.add('js-enabled');

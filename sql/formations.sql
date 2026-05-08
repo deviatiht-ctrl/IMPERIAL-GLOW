@@ -1,5 +1,5 @@
 -- ══════════════════════════════════════════
---  DALIGHT — formations table
+--  IMPERIAL GLOW — formations table
 --  Run this in Supabase SQL Editor
 -- ══════════════════════════════════════════
 

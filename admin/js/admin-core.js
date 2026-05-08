@@ -357,7 +357,7 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;col
   <div class="divider"></div>
   <div class="contact-box">
     <div class="contact-item">📞 <strong>+509 48 48 12 25</strong></div>
-    <div class="contact-item">📍 <strong>Delmas 65, Faustin Premier Durandise #10</strong></div>
+    <div class="contact-item">📍 <strong>Pétion-Ville, RUE Clerveaux, en face Belvédère</strong></div>
     <div class="contact-item">📧 <strong>laurorejeanclarens0@gmail.com</strong></div>
   </div>
 </div>
@@ -717,7 +717,7 @@ function buildStatusUpdateEmailHTML(data, config, logoUrl, newStatus) {
             
             <div class="contact-box">
               <div class="contact-item">📞 <strong>+509 48 48 12 25</strong></div>
-              <div class="contact-item">📍 <strong>Delmas 65, Faustin Premier Durandise #10</strong></div>
+              <div class="contact-item">📍 <strong>Pétion-Ville, RUE Clerveaux, en face Belvédère</strong></div>
               <div class="contact-item">📧 <strong>laurorejeanclarens0@gmail.com</strong></div>
             </div>
           </div>

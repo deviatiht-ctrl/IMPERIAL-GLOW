@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT SPA - RESERVATION PAYMENT SYSTEM
+-- IMPERIAL GLOW SPA - RESERVATION PAYMENT SYSTEM
 -- Run this in Supabase SQL Editor
 -- ============================================
 

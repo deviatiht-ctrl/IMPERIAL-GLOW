@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT HEAD SPA - FONCTIONNALITÉS SOCIALES
+-- IMPERIAL GLOW HEAD SPA - FONCTIONNALITÉS SOCIALES
 -- Exécuter après storage.sql
 -- ============================================
 

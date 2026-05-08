@@ -53,7 +53,7 @@ function renderCards(reservations = []) {
   ordersList.innerHTML = reservations
     .map((r) => {
       const st = STATUS_FR[r.status] || STATUS_FR.PENDING;
-      const locationLabel = r.location === 'Spa' ? 'Au Spa — Delmas 65' : r.location;
+      const locationLabel = r.location === 'Spa' ? 'Au Spa — Pétion-Ville' : r.location;
       const notesBlock = r.notes
         ? `<div class="rc-notes">${escapeHtml(r.notes)}</div>`
         : '';

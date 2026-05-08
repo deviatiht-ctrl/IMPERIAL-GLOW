@@ -1,5 +1,5 @@
 // ============================================
-// DALIGHT HEAD SPA - RESERVATIONS MANAGEMENT
+// IMPERIAL GLOW HEAD SPA - RESERVATIONS MANAGEMENT
 // ============================================
 
 let allReservations = [];
@@ -250,7 +250,7 @@ window.openDetailModal = function(id) {
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
         <div>
           <div class="text-muted mb-1">Lieu</div>
-          <div style="font-weight: 500;">${reservation.location === 'Spa' ? '🏠 DALIGHT — Delmas 65' : '🚗 Service à domicile'}</div>
+          <div style="font-weight: 500;">${reservation.location === 'Spa' ? '🏠 IMPERIAL GLOW — Pétion-Ville' : '🚗 Service à domicile'}</div>
         </div>
         <div>
           <div class="text-muted mb-1">💳 Méthode de paiement</div>
@@ -341,11 +341,11 @@ window.sendEmailTemplate = function(reservationId, templateKey) {
 
   const templates = {
     confirmation: {
-      subject: `✓ Confirmation de votre réservation - DALIGHT Spa`,
+      subject: `✓ Confirmation de votre réservation - IMPERIAL GLOW Spa`,
       body:
 `Bonjour ${name},
 
-Nous avons le plaisir de vous confirmer votre réservation chez DALIGHT Spa :
+Nous avons le plaisir de vous confirmer votre réservation chez IMPERIAL GLOW Spa :
 
 • Service  : ${service}
 • Date     : ${date}
@@ -355,13 +355,13 @@ Nous avons le plaisir de vous confirmer votre réservation chez DALIGHT Spa :
 Nous avons hâte de vous accueillir ! En cas de question ou d'empêchement, merci de nous prévenir au moins 24h à l'avance.
 
 📞 ${phone}
-📍 Delmas 65, Faustin Premier Durandise #10
+📍 Pétion-Ville, RUE Clerveaux, en face Belvédère
 
 À très bientôt,
-L'équipe DALIGHT`
+L'équipe IMPERIAL GLOW`
     },
     cancellation: {
-      subject: `Annulation de votre réservation - DALIGHT Spa`,
+      subject: `Annulation de votre réservation - IMPERIAL GLOW Spa`,
       body:
 `Bonjour ${name},
 
@@ -376,14 +376,14 @@ Nous sommes désolés pour tout désagrément. N'hésitez pas à nous contacter 
 📞 ${phone}
 
 Cordialement,
-L'équipe DALIGHT`
+L'équipe IMPERIAL GLOW`
     },
     reminder: {
-      subject: `⏰ Rappel de votre rendez-vous - DALIGHT Spa`,
+      subject: `⏰ Rappel de votre rendez-vous - IMPERIAL GLOW Spa`,
       body:
 `Bonjour ${name},
 
-Petit rappel amical : vous avez rendez-vous chez DALIGHT Spa demain !
+Petit rappel amical : vous avez rendez-vous chez IMPERIAL GLOW Spa demain !
 
 • Service : ${service}
 • Date    : ${date}
@@ -393,30 +393,30 @@ Petit rappel amical : vous avez rendez-vous chez DALIGHT Spa demain !
 Nous vous attendons avec impatience. Merci d'arriver 5 à 10 minutes avant l'heure prévue.
 
 📞 Pour toute modification : ${phone}
-📍 Delmas 65, Faustin Premier Durandise #10
+📍 Pétion-Ville, RUE Clerveaux, en face Belvédère
 
 À très vite,
-L'équipe DALIGHT`
+L'équipe IMPERIAL GLOW`
     },
     completion: {
-      subject: `🎉 Merci pour votre visite - DALIGHT Spa`,
+      subject: `🎉 Merci pour votre visite - IMPERIAL GLOW Spa`,
       body:
 `Bonjour ${name},
 
-Merci d'avoir choisi DALIGHT Spa pour votre ${service} ! Nous espérons que vous avez apprécié ce moment de détente et de bien-être.
+Merci d'avoir choisi IMPERIAL GLOW Spa pour votre ${service} ! Nous espérons que vous avez apprécié ce moment de détente et de bien-être.
 
 Votre avis compte énormément pour nous. N'hésitez pas à nous laisser un commentaire sur nos réseaux sociaux :
-• Instagram : @dalightbeauty
-• TikTok    : @dalightbeauty
+• Instagram : @imperialglowbeauty
+• TikTok    : @imperialglowbeauty
 
 Nous serions ravis de vous revoir très bientôt pour un nouveau rituel.
 
 À bientôt,
-L'équipe DALIGHT
+L'équipe IMPERIAL GLOW
 📞 ${phone}`
     },
     custom: {
-      subject: `DALIGHT Spa - ${service}`,
+      subject: `IMPERIAL GLOW Spa - ${service}`,
       body:
 `Bonjour ${name},
 

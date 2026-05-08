@@ -1,4 +1,4 @@
--- Video spotlight + storage setup for DALIGHT Head Spa Japonais
+-- Video spotlight + storage setup for IMPERIAL GLOW Head Spa Japonais
 -- Run this script inside Supabase SQL editor (using the service role).
 
 -- 1. Ensure profiles + posts tables exist (idempotent guards)

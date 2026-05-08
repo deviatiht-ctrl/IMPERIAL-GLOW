@@ -1,5 +1,5 @@
 -- ============================================
--- DALIGHT HEAD SPA - DONNÉES INITIALES
+-- IMPERIAL GLOW HEAD SPA - DONNÉES INITIALES
 -- Exécuter EN DERNIER après tous les autres scripts
 -- ============================================
 

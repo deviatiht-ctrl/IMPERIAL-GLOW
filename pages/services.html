@@ -7,7 +7,7 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>Nos Services — DALIGHT</title>
+  <title>Nos Services — IMPERIAL GLOW</title>
   <link rel="icon" href="../assets/images/logodaligth.png?v=2" type="image/png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,16 +20,22 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.1/dist/umd/supabase.min.js"></script>
   <script type="module" src="../js/main.js"></script>
   <script type="module" src="../js/chat-widget.js" defer></script>
+  <style>
+    :root {
+      --marron-700: #8B0A1A;
+      --marron-500: #FFC080;
+    }
+  </style>
 </head>
 
 <body data-page="services">
   <header class="site-header internal">
     <nav class="top-nav">
       <a class="brand" href="../index.html">
-        <img class="brand-logo" src="../assets/images/logodaligth.png?v=2" alt="DALIGHT" />
+        <img class="brand-logo" src="../assets/images/logodaligth.png?v=2" alt="IMPERIAL GLOW" />
         <div>
-          <strong>DALIGHT</strong>
-          <small>L'Art du Bien-Être</small>
+          <strong>IMPERIAL GLOW</strong>
+          <small>Beauty Salon & Spa</small>
         </div>
       </a>
       <button class="nav-toggle" aria-label="Ouvrir la navigation">
@@ -61,7 +67,7 @@
       <p class="kicker">Carte des Rituels</p>
       <h1>L'art de la renaissance par le soin du cuir chevelu.</h1>
       <p class="page-subtitle">
-        Chaque rituel DALIGHT inclut un diagnostic capillaire, une immersion sensorielle aux huiles précieuses
+        Chaque rituel IMPERIAL GLOW inclut un diagnostic capillaire, une immersion sensorielle aux huiles précieuses
         et un massage crânien profond pour une relaxation absolue.
       </p>
       <!-- Search & Filter -->
@@ -212,7 +218,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> DALIGHT. Tous droits réservés.</p>
+    <p>© <span id="year"></span> IMPERIAL GLOW. Tous droits réservés.</p>
     <div class="footer-links">
       <a href="./login.html">Espace client</a>
       <a href="./services.html">Nos Services</a>
@@ -254,7 +260,7 @@
     <!-- ===== MODAL: SELEKSYON TIP CHEVEUX HEAD SPA ===== -->
     <div id="hair-modal-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:9000;align-items:center;justify-content:center;padding:1rem;">
       <div style="background:#fff;border-radius:20px;max-width:520px;width:100%;max-height:90vh;overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.3);">
-        <div style="background:linear-gradient(135deg,#4A3728,#6B4F3B);padding:1.25rem 1.5rem;border-radius:20px 20px 0 0;display:flex;justify-content:space-between;align-items:center;">
+        <div style="background:linear-gradient(135deg,#700100,#D4AF37);padding:1.25rem 1.5rem;border-radius:20px 20px 0 0;display:flex;justify-content:space-between;align-items:center;">
           <div>
             <h3 style="color:white;margin:0;font-family:'Playfair Display',serif;font-size:1.2rem;">Type de cheveux</h3>
             <p style="color:rgba(255,255,255,.75);margin:.25rem 0 0;font-size:.85rem;" id="hair-modal-service-name"></p>
@@ -305,7 +311,7 @@
           </div>
 
           <!-- Prix sélectionné -->
-          <div id="hair-price-display" style="display:none;background:linear-gradient(135deg,#4A3728,#6B4F3B);color:white;border-radius:12px;padding:1rem;margin-top:1rem;text-align:center;">
+          <div id="hair-price-display" style="display:none;background:linear-gradient(135deg,#700100,#D4AF37);color:white;border-radius:12px;padding:1rem;margin-top:1rem;text-align:center;">
             <p style="margin:0;font-size:.85rem;opacity:.85;color:white;">Prix sélectionné</p>
             <p style="margin:.25rem 0 0;font-size:1.4rem;font-weight:700;color:white;" id="hair-price-value">0 HTG</p>
           </div>
@@ -359,7 +365,7 @@
       </button>
       <div class="chat-window" id="chat-window" style="display:none;">
         <div class="chat-header">
-          <h4>Assistant DALIGHT</h4>
+          <h4>Assistant IMPERIAL GLOW</h4>
           <span class="chat-status">En ligne</span>
           <button class="chat-close" id="chat-close">
             <i data-lucide="x"></i>
@@ -385,8 +391,16 @@
         { name: 'Rituel Zen Impérial', description: "L'expérience ultime : Head Spa, bain de vapeur aux herbes et massage épaules.", duration: '90 min', price_usd: 125, price_htg: 15000 },
         { name: 'Soin Détox & Équilibre', description: 'Exfoliation délicate, massage purifiant et masque capillaire revitalisant.', duration: '75 min', price_usd: 100, price_htg: 12000 },
         { name: 'Head Spa & Éclat Visage', description: 'Duo prestigieux : Soin crânien profond et massage sculptant du visage.', duration: '105 min', price_usd: 150, price_htg: 18000 },
-        { name: 'Duo Sérénité', description: "Vivez l'expérience DALIGHT à deux, un moment suspendu de pure harmonie.", duration: '60 min', price_usd: 160, price_htg: 19000 },
+        { name: 'Duo Sérénité', description: "Vivez l'expérience IMPERIAL GLOW à deux, un moment suspendu de pure harmonie.", duration: '60 min', price_usd: 160, price_htg: 19000 },
         { name: 'Rituel Renaissance 4', description: 'Cure de 4 rituels personnalisés pour une chevelure éclatante et un esprit apaisé.', duration: '4 rituels', price_usd: 300, price_htg: 35000 },
+        { name: 'Manicure Classique', description: 'Soin des ongles, cuticules et massage des mains pour une finition parfaite.', duration: '45 min', price_usd: 25, price_htg: 3000 },
+        { name: 'Manicure Spa', description: 'Soin complet avec gommage, masque hydratant et massage relaxant des mains.', duration: '60 min', price_usd: 40, price_htg: 5000 },
+        { name: 'Pédicure Relax', description: 'Soin des pieds, gommage, massage et vernis pour une détente totale.', duration: '50 min', price_usd: 35, price_htg: 4000 },
+        { name: 'Manicure & Pédicure Duo', description: 'Le combo parfait : soin complet des mains et pieds pour une relaxation totale.', duration: '90 min', price_usd: 60, price_htg: 7500 },
+        { name: 'Coupe & Coiffage Homme', description: 'Coupe de cheveux professionnelle et coiffage selon votre style.', duration: '45 min', price_usd: 30, price_htg: 3500 },
+        { name: 'Coupe & Barbe', description: 'Coupe de cheveux et soin de la barbe avec serviette chaude.', duration: '60 min', price_usd: 45, price_htg: 5500 },
+        { name: 'Shaving Royal', description: 'Rasage traditionnel avec serviette chaude et massage du visage.', duration: '40 min', price_usd: 35, price_htg: 4000 },
+        { name: 'Barbershop Complet', description: 'Lexpérience complète : coupe, barbe, soin visage et massage.', duration: '90 min', price_usd: 70, price_htg: 8500 },
       ];
 
       // ============================================
@@ -703,7 +717,7 @@
             c.style.width = '100%';
             c.style.maxWidth = '320px';
             c.style.margin = '0 auto';
-            c.style.borderColor = '#4A3728';
+            c.style.borderColor = '#700100';
             c.style.boxShadow = '0 0 0 3px rgba(74,55,40,.2)';
             // Make the image clickable for lightbox
             const img = c.querySelector('img');
@@ -736,7 +750,7 @@
               <span style="font-weight:600;font-size:.88rem;color:#1f2937;">${p.label}</span>
               <span style="color:#6b7280;font-size:.78rem;margin-left:.4rem;">${p.hair_length || ''}</span>
             </div>
-            <strong style="color:#4A3728;font-size:.92rem;">${Number(p.price_htg).toLocaleString()} HTG</strong>
+            <strong style="color:#700100;font-size:.92rem;">${Number(p.price_htg).toLocaleString()} HTG</strong>
           </label>
         `).join('');
       }
@@ -748,21 +762,21 @@
         document.querySelectorAll('[data-pricing-idx]').forEach(el => {
           const active = el.dataset.pricingIdx === String(idx);
           if (active) {
-            el.style.borderColor = '#4A3728';
-            el.style.background = '#4A3728';
+            el.style.borderColor = '#700100';
+            el.style.background = '#700100';
             el.querySelectorAll('span, strong').forEach(s => s.style.color = 'white');
           } else {
             el.style.borderColor = '#e5e7eb';
             el.style.background = 'white';
             el.querySelectorAll('span').forEach(s => s.style.color = '');
-            el.querySelectorAll('strong').forEach(s => s.style.color = '#4A3728');
+            el.querySelectorAll('strong').forEach(s => s.style.color = '#700100');
           }
         });
         document.getElementById('hair-price-value').textContent = Number(pricing.price_htg).toLocaleString() + ' HTG';
         document.getElementById('hair-price-display').style.display = 'block';
         const confirmBtn = document.getElementById('hair-confirm-btn');
         confirmBtn.disabled = false;
-        confirmBtn.style.background = 'linear-gradient(135deg,#4A3728,#6B4F3B)';
+        confirmBtn.style.background = 'linear-gradient(135deg,#700100,#D4AF37)';
         confirmBtn.style.cursor = 'pointer';
       }
       window.selectPricingByIndex = selectPricingByIndex;
